@@ -3,7 +3,7 @@
 $ip = '192.168.1.201'; //extensiondb 192.168.1.200
 $domainname= 'tugba.lab';//tugba.lab
 $user = "Administrator@".$domainname;// tugba
-$pass = 'Tugba65535+';
+$pass = '1';
 $server = 'ldaps://'.$ip;
 
 $ldap = ldap_connect($server);
